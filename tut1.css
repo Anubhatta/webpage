@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+} 
+.navbar {
+   background-color: rgb(172, 240, 36);
+   overflow:auto;
+   margin:2%;
+   border-radius:50px; 
+}   
+.navbar li{
+    float:left;
+    list-style:none;
+    padding:30px;
+    margin:5px;
+    cursor: pointer;
+   
+}
+li:hover{
+color: red;
+font-weight:bolder;   
+}
+.search{
+  float:right;
+   padding:10px;
+   margin: 20px;
+  
+}
